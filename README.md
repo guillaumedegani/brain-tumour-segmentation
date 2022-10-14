@@ -8,4 +8,4 @@ The dataset [[1]](https://figshare.com/articles/dataset/brain_tumor_dataset/1512
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](/assets/glioma.pdf)  |  ![](https://...Ocean.png)
