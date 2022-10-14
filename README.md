@@ -12,3 +12,10 @@ Glioma             |  Meningioma |  Pituatary Tumour
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/glioma.png)  |  ![](/assets/meningioma.png) |  ![](/assets/pituatary.png)
 
+It is important to note that making the diffrence between each type of tumor is important since they behave diffrently.
+
+* **Meningiomas** are benign most of the time they arise from the meninges — the membranes that surround the brain and spinal cord.
+
+* **Gliomas** are more complexe since if they are malignant the diagnosis can be really bad since they can evolve pretty quickly. However these type of tumor can also be benign in the sens that they don't grow fast enough to be a threat. 
+
+* ***Pituatary tumors**. 
