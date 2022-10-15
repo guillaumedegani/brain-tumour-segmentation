@@ -26,12 +26,10 @@ In this application I decided to use the U-Net [[2]](https://lmb.informatik.uni-
 
 ![](/assets/u-net-architecture.png) 
 
-As for all deep learning the choice of a Loss function is extremly important, in this case using "traditional" loss function such as MSE or Binary Cross Entropy would leave to terrible results. This is what lead me to the choice of the *Dice Loss Function* [[3]](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/](https://arxiv.org/pdf/2006.14822.pdf)) which is frequently used in these types of problems.
+As for all deep learning problems the choice of Loss function is extremly important, in this case using "traditional" loss function such as MSE or Binary Cross Entropy would leave to terrible results. This is what lead me to the choice of the *Dice Loss Function* [[3]](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/](https://arxiv.org/pdf/2006.14822.pdf)) which is frequently used in these types of problems.
 
 The formula is the followning:
-
 $$Dice = \frac{2\times TP}{(TP+FP) + (TP+FN)}$$ 
-
 with :
 
 `TP` True positve
@@ -39,6 +37,15 @@ with :
 `FP` False Positive
 
 `FN` False Negative
+
+Once the model is setup and the loss function is defined it is finally time to train the model to do so we used Google Colab to train our model in the could using GPU's. The first training session was donne on 90% of the dataset for 250 epochs using the 10% leftover for our validation.
+
+Underneath we can see the prediction made by our model after the first training session:
+
+![](/assets/first_training.png)
+
+The results aren't very good and this was predictable because we trained a fairly big model from scrath on only 1000 images. It seems that the model is having a hard time differenciating the tumour from the skull. To solve some of these problems I decided to use data augmentation to increase the size of my dataset with the hope that it will lead to better performance. 
+
 
 
 
