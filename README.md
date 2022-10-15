@@ -22,7 +22,7 @@ It is important to note that making the diffrence between each type of tumor is 
 
 ### Segmentation Model
 
-In this application I decided to use the U-Net [[1]](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) model which is frequently used for segmentation when the object that needs to be detected is fairly small in the image, which is our case.
+In this application I decided to use the U-Net [[2]](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) model which is frequently used for segmentation when the object that needs to be detected is fairly small in the image, which is our case.
 
 ![](/assets/u-net-architecture.png) 
 
