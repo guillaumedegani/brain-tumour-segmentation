@@ -26,6 +26,20 @@ In this application I decided to use the U-Net [[2]](https://lmb.informatik.uni-
 
 ![](/assets/u-net-architecture.png) 
 
+As for all deep learning the choice of a Loss function is extremly important, in this case using "traditional" loss function such as MSE or Binary Cross Entropy would leave to terrible results. This is what lead me to the choice of the *Dice Loss Function* [[3]](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/](https://arxiv.org/pdf/2006.14822.pdf)) which is frequently used in these types of problems.
+
+The formula is the followning:
+
+$$Dice = \frac{2\times TP}{(TP+FP) + (TP+FN)}$$ 
+
+with :
+
+`TP` True positve
+
+`FP` False Positive
+
+`FN` False Negative
+
 
 
 
