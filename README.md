@@ -14,11 +14,11 @@ Glioma             |  Meningioma |  Pituatary Tumour
 
 It is important to note that making the diffrence between each type of tumor is important since they behave diffrently.
 
-* **Meningiomas** are benign most of the time they arise from the meninges — the membranes that surround the brain and spinal cord.
+* `Meningiomas` are benign most of the time they arise from the meninges — the membranes that surround the brain and spinal cord.
 
-* **Gliomas** are more complexe since if they are malignant the diagnosis can be really bad since they can evolve pretty quickly. However these type of tumor can also be benign in the sens that they don't grow fast enough to be a threat. 
+* `Gliomas` are more complexe since if they are malignant the diagnosis can be really bad since they can evolve pretty quickly. However these type of tumor can also be benign in the sens that they don't grow fast enough to be a threat. 
 
-* **Pituatary tumors** are abnormal growths that develop in your pituitary gland. Some pituitary tumors result in hormone imbalance wich can impact some important functions in the patients body. 
+* `Pituatary tumors` are abnormal growths that develop in your pituitary gland. Some pituitary tumors result in hormone imbalance wich can impact some important functions in the patients body. 
 
 ### Segmentation Model
 
