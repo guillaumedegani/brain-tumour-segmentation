@@ -47,12 +47,20 @@ Underneath we can see the prediction made by our model after the first training 
 
 The results aren't very good and this was predictable because we trained a fairly big model from scrath on only 1000 images. It seems that the model is having a hard time differenciating the tumour from the skull. To solve some of these problems I decided to use data augmentation to increase the size of my dataset with the hope that it will lead to better performance. 
 
-# Data Augmentation
+### Data Augmentation
+
+Using the albumentations library the dataset was increased to roughly 40 000 images using a combination of the tranformation described in the table bellow. 
 
 Zoom             |  Holes |  Rotated
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/data_augmented/rotated.png)  |  ![](/assets/data_augmented/holed.png) |  ![](/assets/data_augmented/zoomed.png)
 ![](/assets/data_augmented/mask_zoomed.png)  |  ![](/assets/data_augmented/mask_holed.png) |  ![](/assets/data_augmented/mask_rotated.png)
+
+Now using this enhanced dataset on 4 times 100000 random images for 250 epochs we notice some better results as seen in the table bellow :
+
+
+
+
 
 
 
