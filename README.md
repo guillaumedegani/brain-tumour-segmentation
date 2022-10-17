@@ -52,8 +52,7 @@ The results aren't very good and this was predictable because we trained a fairl
 Zoom             |  Holes |  Rotated
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/data_augmented/rotated.png)  |  ![](/assets/data_augmented/holed.png) |  ![](/assets/data_augmented/zoomed.png)
-:-------------------------:|:-------------------------:|:-------------------------:
-![](/assets/data_augmented/mask_rotated.png)  |  ![](/assets/data_augmented/mask_holed.png) |  ![](/assets/data_augmented/mask_zoomed.png)
+![](/assets/data_augmented/mask_zoomed.png)  |  ![](/assets/data_augmented/mask_holed.png) |  ![](/assets/data_augmented/mask_rotated.png)
 
 
 
