@@ -47,7 +47,12 @@ Underneath we can see the prediction made by our model after the first training 
 
 The results aren't very good and this was predictable because we trained a fairly big model from scrath on only 1000 images. It seems that the model is having a hard time differenciating the tumour from the skull. To solve some of these problems I decided to use data augmentation to increase the size of my dataset with the hope that it will lead to better performance. 
 
-#Data Augmentation
+# Data Augmentation
+
+Rotation             |  Holes |  Zoom
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/assets/glioma.png)  |  ![](/assets/meningioma.png) |  ![](/assets/pituatary.png)
+
 
 
 
