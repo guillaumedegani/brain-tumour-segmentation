@@ -51,7 +51,7 @@ The results aren't very good and this was predictable because we trained a fairl
 
 Rotation             |  Holes |  Zoom
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/assets/glioma.png)  |  ![](/assets/meningioma.png) |  ![](/assets/pituatary.png)
+![](/assets/data_augmented/.png)  |  ![](/assets/data_augmented/.png) |  ![](/assets/data_augmented/.png)
 
 
 
