@@ -49,7 +49,7 @@ The results aren't very good and this was predictable because we trained a fairl
 
 # Data Augmentation
 
-Rotation             |  Holes |  Zoom
+Zoom             |  Holes |  Rotated
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/data_augmented/rotated.png)  |  ![](/assets/data_augmented/holed.png) |  ![](/assets/data_augmented/zoomed.png)
 
