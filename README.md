@@ -8,7 +8,7 @@ The dataset [[1]](https://figshare.com/articles/dataset/brain_tumor_dataset/1512
 
 Below an example of the types of tumour from the dataset used:
 
-Glioma             |  Meningioma |  Pituatary Tumour
+        Meningioma      | Glioma |  Pituatary Tumour
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/glioma.png)  |  ![](/assets/meningioma.png) |  ![](/assets/pituatary.png)
 
