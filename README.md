@@ -83,7 +83,11 @@ Random Forest             |  SVM
 :-------------------------:|:-------------------------:
 ![](/assets/random_forest.png)  |  ![](/assets/SVM_poly_cut.png)
 
-The results of the SVM are really bad sice the model can't make the diffrence between meningiomas and gliomas. Whereas the Random Forest does a better job at differanciating the two however **56%**
+The results of the SVM are really bad sice the model can't make the diffrence between meningiomas and gliomas. Whereas the Random Forest does a better job at differanciating the two however **56%** of Meningiomas are still diagnosed as Gliomas.
+
+To try and fix this error it's important to understand when and why the model is making a mistake here bellow are some example Gliomas and Meningiomas that are missdiagnosed.
+
+
 
 
 
