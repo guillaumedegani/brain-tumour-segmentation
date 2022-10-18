@@ -92,6 +92,12 @@ Meningioma             |  Glioma |  Necrotic Glioma
 ![](/assets/glioma.png)  |  ![](/assets/early_glioma.png) |  ![](/assets/necro_glioma.png)
 
 
+We can see that Gliomas and Meningiomas have a fairly similar shape and size especially for early stage Gliomas eg non necrotic. If the Glioma is necrotic the texture of the tumour becomes less uniform this indecates that using texture feature might help with the diagnosis. To do we use the Grey Level Co-occurrence matrix (GCLM) to extract some new features related to the texture of the tumor as described in [[4]](https://www.researchgate.net/publication/285737882_GLCM_textural_features_for_Brain_Tumor_Classification) the new features used are the following :
+
+
+
+
+
 
 
 
