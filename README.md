@@ -112,7 +112,7 @@ The final results of the model are summerized in the Confusion Matrix Bellow, th
 
 Final Results             |
 :-------------------------:|
-![](/assets/Final_results.png)
+![](/assets/Final_Results.png)
 
 # Conclusion
 
