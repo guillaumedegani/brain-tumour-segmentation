@@ -110,7 +110,7 @@ Using this method we selected the following features which optimize the performa
 
 The final results of the model are summerized in the Confusion Matrix Bellow, the model performance has slightly improved reaching an accuarcy of roughly `85%` however there still alot of Meningiomas which are Diagnosed as Gliomas. But as described above this in explainable by the fact that Meningiomas and Grade I Gliomas are fairly similar in there appearence. And using follow up MRI's the model would see wether the tumour was evolving which is an indicator of malignancy which are usually linked to Gliomas.
 
-Meningioma             |
+Final Results             |
 :-------------------------:|
 ![](/assets/Final_results.png)
 
