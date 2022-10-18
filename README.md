@@ -58,10 +58,32 @@ Zoom             |  Holes |  Rotated
 
 Now using this enhanced dataset on 4 times 100000 random images for 250 epochs we notice some better results as seen in the table bellow :
 
+Input             |  Ground Truth |  Prediction
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/assets/glioma.png)  |  ![](/assets/mask_12.png) |  ![](/assets/mask_github.png)
 
+Note: The artefacts on the prediction a due to the fact that the model was train on collab so the images that to be shrunk down from 512x512 to 256x256 for time sake. But this proves that with more computing power this method would work on real size images.
 
+### Classification
 
+Once the tumor has been isoloated in the brain we can proceed to a feature extraction and with these features we can then train Machine Learning models to classfie the tumor.
 
+Using Various function on the masks I came up with the following sets of features for my first draft at classification:
+
+- `Width` of the tumor which is an indication of it's shape and size.
+- `Height` of the tumor which is an indication of it's shape and size.
+- `avgPosX` the position on the X axis of the tumour in the brain.
+- `avgPosY` the position on the Y axis of the tumour in the brain.
+- `ratioCircular` the ration between the tumors height and with which tells gives indecation on the shape of the tumor.
+- `area` the number of pixel tagged as tumor in the mask which gives information about the size of the tumour.
+
+Here are the confusion matrixes comparing two Classifiers, Random Forest and Support Vector Machine (SVM) trainded on the features showed above:
+
+Random Forest             |  SVM
+:-------------------------:|:-------------------------:
+![](/assets/random_forest.png)  |  ![](/assets/SVM_poly_cut.png)
+
+The results of the SVM are really bad sice the model can't make the diffrence between meningiomas and gliomas. Whereas the Random Forest does a better job at differanciating the two however **56%**
 
 
 
