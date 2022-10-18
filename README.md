@@ -8,7 +8,7 @@ The dataset [[1]](https://figshare.com/articles/dataset/brain_tumor_dataset/1512
 
 Below an example of the types of tumour from the dataset used:
 
-        Meningioma      | Glioma |  Pituatary Tumour
+Meningioma      | Glioma |  Pituatary Tumour
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/assets/glioma.png)  |  ![](/assets/meningioma.png) |  ![](/assets/pituatary.png)
 
@@ -87,7 +87,9 @@ The results of the SVM are really bad sice the model can't make the diffrence be
 
 To try and fix this error it's important to understand when and why the model is making a mistake here bellow are some example Gliomas and Meningiomas that are missdiagnosed.
 
-
+Meningioma             |  Glioma |  Necrotic Glioma
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/assets/glioma.png)  |  ![](/assets/early_glioma.png) |  ![](/assets/necro_glioma.png)
 
 
 
