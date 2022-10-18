@@ -108,6 +108,15 @@ Using this method we selected the following features which optimize the performa
 `['width', 'height', 'avgPosY', 'ratioCircular', 'area', 'entropy', 'homogeneity', 'dissimilarity', 'energy', 'correlation']
 `
 
+The final results of the model are summerized in the Confusion Matrix Bellow, the model performance has slightly improved reaching an accuarcy of roughly `85%` however there still alot of Meningiomas which are Diagnosed as Gliomas. But as described above this in explainable by the fact that Meningiomas and Grade I Gliomas are fairly similar in there appearence. And using follow up MRI's the model would see wether the tumour was evolving which is an indicator of malignancy which are usually linked to Gliomas.
+
+Meningioma             |
+:-------------------------:|
+![](/assets/Final_results.png)
+
+# Conclusion
+
+The model developped in this project perform averagly at best which is explainable by the fact that this project was done in short amount of time. There are alot of improvment that could be done to this project for example using a larger dataset to improve the performance of the models. Using a mix of human selected features and deep learning to make the classification better. Finnaly using the model on several brain slices from the same MRI and selcting the type on these diffrent slices.
 
 
 
