@@ -94,6 +94,24 @@ Meningioma             |  Glioma |  Necrotic Glioma
 
 We can see that Gliomas and Meningiomas have a fairly similar shape and size especially for early stage Gliomas eg non necrotic. If the Glioma is necrotic the texture of the tumour becomes less uniform this indecates that using texture feature might help with the diagnosis. To do we use the Grey Level Co-occurrence matrix (GCLM) to extract some new features related to the texture of the tumor as described in [[4]](https://www.researchgate.net/publication/285737882_GLCM_textural_features_for_Brain_Tumor_Classification) the new features used are the following :
 
+- `entropy` Measure of uncertainty withinan image
+- `homogeneity` Measures the smoothness of the image texture
+- `contrast` Overall amount of local grey level variation within a window
+- `dissimilarity` Measure of the local variation
+- `energy` Provides the sum of squared elements in the GLCM. Also known as uniformity or the angular second moment.
+- `correlation` Measurement of linear dependency of grey levels within an image
+
+Before adding all these features to the model I thought using feature selection might be helpfull to improve the precision of the model. Using Bacward Elimination wich consists in cheking the model performance and then removing the worst performing features until the model perform well. The metric to used to evaluate the usefulness of a feature was the p-value wehter it was abovz 0.05 or not.
+
+Using this method we selected the following features which optimize the performance of the model:
+
+`['width', 'height', 'avgPosY', 'ratioCircular', 'area', 'entropy', 'homogeneity', 'dissimilarity', 'energy', 'correlation']
+`
+
+
+
+
+
 
 
 
